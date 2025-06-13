@@ -52,31 +52,141 @@
 
         // exo 4 
 
-        if (genre == "homme" || genre == "femme") {
-            let age = prompt("entre ton age")
+        // let genre = prompt("Entre ton genre")
 
-            if (isNaN(age)) {
-                alert("Veuillez saisir un chiffre")
-            } else {
+        // if (genre == "homme" || genre == "femme") {
+        //     let age = prompt("entre ton age")
 
-                if (genre == "homme") {
-                    if (age >= 18) {
-                        alert("majeur homme")
-                    } else {
-                        alert("mineur homme")
-                    }
-                    if (genre == "femme") {
-                        alert("majeur femme")
-                    } else {
-                        alert("mineur femme")
-                    }
-                }
-            }
+        //     if (isNaN(age)) {
+        //         alert("Veuillez saisir un chiffre")
+        //     } else {
+
+
+        //         if (genre == "homme") {
+        //             if (age >= 18) {
+        //                 alert("majeur homme")
+        //             } else {
+        //                 alert("mineur homme")
+        //             }
+        //         }
+
+
+        //         if (genre == "femme") {
+        //             if (age >= 18) {
+        //                 alert("majeur femme")
+        //             } else {
+        //                 alert("mineur femme")
+        //             }
+        //         }
+        //     }
+
+        // } else {
+        //     alert("Veuillez entrer homme ou femme")
+        // }
+
+
+        // exo 5
+
+        // let moyenne = prompt("Rentrer une moyenne sur 20")
+
+        // if (isNaN(moyenne)) {
+        //     message = "Veuillez entrer un nombre"
+        // } else {
+        //     if (moyenne >= 0 && moyenne <= 20) {
+
+        //         if (moyenne <= 0) {
+        //             message = "Un rendez-vous sera programmé en raison de la moyenne"
+        //         }
+        //         else if (moyenne >= 1 && moyenne <= 5) {
+        //             message = "Trimestre insuffisant"
+        //         }
+        //         else if (moyenne >= 6 && moyenne <= 10) {
+        //             message = "Trimestre moyen"
+        //         }
+        //         else if (moyenne >= 11 && moyenne <= 13) {
+        //             message = "Bon trimestre"
+        //         }
+        //         else if (moyenne >= 14 && moyenne <= 18) {
+        //             message = "Excellent trimestre"
+        //         }
+        //         else if (moyenne >= 18) {
+        //             message = "Félicitations."
+        //         }
+        //     }
+        // }
+
+        // alert(message)
+
+
+        // exo 6 
+
+        // let nb = Number(prompt("Entrez un nombre entre 1 et 12"))
+        // let months
+
+        // switch (nb) {
+        //     case 1:
+        //         months = "January"
+        //         break
+        //     case 2:
+        //         months = "February"
+        //         break
+        //     case 3:
+        //         months = "March"
+        //         break
+        //     case 4:
+        //         months = "April"
+        //         break
+        //     case 5:
+        //         months = "May"
+        //         break
+        //     case 6:
+        //         months = "June"
+        //         break
+        //     case 7:
+        //         months = "July"
+        //         break
+        //     case 8:
+        //         months = "August"
+        //         break
+        //     case 9:
+        //         months = "September"
+        //         break
+        //     case 10:
+        //         months = "October"
+        //         break
+        //     case 11:
+        //         months = "November"
+        //         break
+        //     case 12:
+        //         months = "December"
+        //         break
+        // }
+
+        // alert(months)
+
+
+        // exo 7 
+
+        // let entier = prompt("Veuillez rentrer un entier")
+
+        // if (entier % 2 == 0) {
+        //     alert("paire")
+        // } else {
+        //     alert("impaire")
+        // }
+
+        // alert(entier % 2 == 0 ? "paire" : "impaire")
+    
+
+        // exo 8 
+
+        if (window.confirm("je suis majeur")) {
+            alert("je suis ok")
         } else {
-            alert("Veuillez entrer homme ou femme")
-        } 
+            alert("je ne suis pas ok")
+        }
 
-        alert("L'utilisateur est un " + genre + "et " + age)
+        window.confirm("je suis majeur") ? alert("je suis ok") : alert("je ne suis pas ok")
     </script>
 </body>
 
